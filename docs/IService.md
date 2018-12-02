@@ -19,7 +19,7 @@
 	* count: int — отвечает, сколько элементов необходимо показать;
   
 	* page: int — отвечает, с какой страницы начинать поиск элементов.
-* +Save ([Service](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Service.md "объект класса Service")): Bool — функция, редактирующая данные о услуге. Параметр «[Service](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Service.md "объект класса Service"))» — 
+* +Save ([Service](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Service.md "объект класса Service")): Bool — функция, редактирующая данные о услуге. Параметр «[Service](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Service.md "объект класса Service")» — 
 услуга, которую необходимо редактировать в БД;
 * +SaveCountMaterial(ServiceID:Int,MaterialID:Int,Amount:Double): Bool - функция, редактирующая количество материала, требующегося для услуги.
 * +GetAllWorkers(ServiceID: Int): List <[Worker](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Worker.md "объект класса Worker")> — функция, возвращающая список работников, оказывающих услугу.
