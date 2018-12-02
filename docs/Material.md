@@ -1,16 +1,16 @@
-# Описание класса Cabinet
-Класс для работы с кабинетами клиники
+# Описание класса Material
+Класс для работы с материалами тату-салона.
 
 ## Атрибуты
 
-* Description:String
+* CostPerPiece:Double
 * ID:Int
-* Name:String
-* Procedures:List<[Procedure](https://github.com/gogganesko/Orho/blob/master/docs/Procedure.md "объект класса Procedure")>
+* NameOfSupplier:String
+* TheCostForTheAmount:Double
 
 ## Описание атрибутов
 
-* Description:String - описание.
+* CostPerPiece:Double - стоимость за единицу материала.
 * ID:Int - идентификатор в БД.
-* Name:String - название.
-* Procedures:List<[Procedure](https://github.com/gogganesko/Orho/blob/master/docs/Procedure.md "объект класса Procedure")> - список процедур.
+* NameOfSupplier:String - наименование поставщика материала.
+* TheCostForTheAmount:Double - стоимость за минимальный объём.

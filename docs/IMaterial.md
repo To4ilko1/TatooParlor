@@ -2,15 +2,13 @@
 Интерфейс предназначен для работы с методами класса Material
 
 ## Реализация интерфейса
-* +Add (Material:[Material](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Material.md "объект класса Material")): Int — функция, добавляющая плана лечения в базу данных. Параметр «[TreatmentPlan](https://github.com/gogganesko/Orho/blob/master/docs/TreatmentPlan.md "объект класса TreatmentPlan")» — кабинет, 
+* +Add (Material:[Material](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Material.md "объект класса Material")): Int — функция, добавляющая материал в базу данных. Параметр «[Material](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Material.md "объект класса Material")» — материал, 
 который необходимо добавить в БД;
-* +AddCabinetVisit(VisitID: Int, CabinetID: Int): Int – функция добавляет кабинету приём в БД. Параметр CabinetID и VisitID – ID по которому будет осуществлен поиск в базе.
-* +DelCabinetVisit(VisitID: Int, CabinetID: Int): Int - удаление кабинета у приёма.
-* +Save (Cabinet:[Cabinet](https://github.com/gogganesko/Orho/blob/master/docs/Cabinet.md "объект класса Cabinet")): Bool — функция, редактирующая данные о кабинете. Параметр «[Cabinet](https://github.com/gogganesko/Orho/blob/master/docs/Cabinet.md "объект класса Cabinet")» — 
-кабинет, который необходимо редактировать в БД;
-* +FindByID(ID: Int): [Cabinet](https://github.com/gogganesko/Orho/blob/master/docs/Cabinet.md "объект класса Cabinet")  — функция, осуществляющая поиск кабинета в базе данных по ID и возвращающая найденный, если такой есть. 
-* +Delete(ID): Bool – функция удаляет кабинет.
-* +GetCabinets(ID: Int, sorting: string, sortingA: string, filtering: Reader, count: Int, page: Int): List <[Cabinet](https://github.com/gogganesko/Orho/blob/master/docs/Cabinet.md "объект класса Cabinet")> — функция, возвращающая список кабинетов. 
+* +Save ([Material](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Material.md "объект класса Material")): Bool — функция, редактирующая данные о материале. Параметр «[Material](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Material.md "объект класса Material")» — 
+материал, который необходимо редактировать в БД;
+* +FindByID(ID: Int): [Material](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Material.md "объект класса Material")  — функция, осуществляющая поиск материала в базе данных по ID и возвращающая найденный, если такой есть. 
+* +Delete(ID): Bool – функция удаляет материал.
+* +GetAllMaterials(sorting: string, sortingA: string, filtering: Reader, count: Int, page: Int): List <[Material](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Material.md "объект класса Material")> — функция, возвращающая список материалов. 
 Параметры: 
 	* sortintg: string — отвечает, по какому полю будет сортироваться список;
   
@@ -21,4 +19,4 @@
 	* count: int — отвечает, сколько элементов необходимо показать;
   
 	* page: int — отвечает, с какой страницы начинать поиск элементов.
-* +GetVisits(ID: Int, sorting: string, sortingA: string, filtering: Reader, count: Int, page: Int): List <[Visit](https://github.com/gogganesko/Orho/blob/master/docs/Visit.md "объект класса Visit")> — функция, возвращающая список приёмов кабинета.
+* +GetAmountInBranch(MaterialID: Int): Dictionary <[Branch](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Branch.md "объект класса Branch"),Double> — функция, возвращающая словарь с ключом филиала и значением остатка.
