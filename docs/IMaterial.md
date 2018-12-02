@@ -1,8 +1,8 @@
-# Описание интерфейса ICABINET 
-Интерфейс предназначен для работы с методами класса Cabinet
+# Описание интерфейса IMATERIAL 
+Интерфейс предназначен для работы с методами класса Material
 
 ## Реализация интерфейса
-* +Add (Cabinet:[Cabinet](https://github.com/gogganesko/Orho/blob/master/docs/Cabinet.md "объект класса Cabinet")): Int — функция, добавляющая плана лечения в базу данных. Параметр «[TreatmentPlan](https://github.com/gogganesko/Orho/blob/master/docs/TreatmentPlan.md "объект класса TreatmentPlan")» — кабинет, 
+* +Add (Material:[Material](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Material.md "объект класса Material")): Int — функция, добавляющая плана лечения в базу данных. Параметр «[TreatmentPlan](https://github.com/gogganesko/Orho/blob/master/docs/TreatmentPlan.md "объект класса TreatmentPlan")» — кабинет, 
 который необходимо добавить в БД;
 * +AddCabinetVisit(VisitID: Int, CabinetID: Int): Int – функция добавляет кабинету приём в БД. Параметр CabinetID и VisitID – ID по которому будет осуществлен поиск в базе.
 * +DelCabinetVisit(VisitID: Int, CabinetID: Int): Int - удаление кабинета у приёма.
