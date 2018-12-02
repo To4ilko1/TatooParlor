@@ -9,7 +9,7 @@
 * +DelCabinetService(ServiceID:Int,CabinetID:Int): Bool - удаление кабинета у услуги.
 * +DelCabinetSession(SessionID:Int,CabinetID:Int): Bool- удаление кабинета у сеанса.
 * +Delete(ID:Int): Bool – функция удаляет кабинет.
-* +FindByID(ID: Int): [Cabinet](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Cabinet.md "объект класса Cabinet"))  — функция, осуществляющая поиск кабинета в базе данных по ID и возвращающая найденный, если такой есть.
+* +FindByID(ID: Int): [Cabinet](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Cabinet.md "объект класса Cabinet")  — функция, осуществляющая поиск кабинета в базе данных по ID и возвращающая найденный, если такой есть.
 * +FindByName(BranchID: Int,Name: String): List<[Cabinet](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Cabinet.md "объект класса Cabinet")>  — функция, осуществляющая поиск кабинета в базе данных по имени и возвращающая список кабинетов, подходящих по условию.
 * +GetAllCabinets(sorting: string, sortingA: string, filtering: Reader, count: Int, page: Int): List <[Cabinet](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Cabinet.md "объект класса Cabinet")> — функция, возвращающая список кабинетов. 
 Параметры: 
