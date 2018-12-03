@@ -1,20 +1,17 @@
 # Тату-салон.
 ## Диаграмма размещения
-![][https://github.com/To4ilko1/TatooParlor/blob/master/resources/picture1.jpg "Диаграмма размещения"]
+![](https://github.com/To4ilko1/TatooParlor/blob/master/resources/picture1.jpg "Диаграмма размещения")
 Диаграмма размещения отражает физические взаимосвязи между программными и аппаратными компонентами системы. 
 На диаграмме размещения изображены узлы выполнения программных компонентов, а также объектов. 
 Показано, что клиентское приложение, установленное на компьютере пользователя, 
 взаимодействует с сервером, который содержит в себе базу данных.
 ## Диаграмма компонентов
-![][logo]
-[logo]: resources/picture2.png "Диаграмма компонентов"
+![](https://github.com/To4ilko1/TatooParlor/blob/master/resources/picture2.jpg "Диаграмма компонентов")
 На данной диаграмме изображены все компоненты: клиентское приложение, сеансы, мастера, клиенты, услуги, филиалы, материалы, кабинеты, платежи.
 Эти компоненты взаимодействуют друг с другом с помощью интерфейсов.
 ## Диаграммы интерфейсов
-![][logo]
-[logo]: resources/picture3.png "Диаграмма интерфейсов"
-![][logo]
-[logo]: resources/picture4.png "Диаграмма интерфейсов"
+![](https://github.com/To4ilko1/TatooParlor/blob/master/resources/picture3.jpg "Диаграмма интерфейсов")
+![](https://github.com/To4ilko1/TatooParlor/blob/master/resources/picture4.jpg "Диаграмма интерфейсов")
 ## Список всех интерфейсов
 * [Worker](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Worker.md "Интерфейс IWorker")
 * [Client](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Client.md "Интерфейс IClient")
