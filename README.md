@@ -13,7 +13,7 @@
 ![](https://github.com/To4ilko1/TatooParlor/blob/master/resources/picture3.jpg "Диаграмма интерфейсов")
 ![](https://github.com/To4ilko1/TatooParlor/blob/master/resources/picture4.jpg "Диаграмма интерфейсов")
 ## Список всех интерфейсов
-* [Worker](https://github.com/To4ilko1/TatooParlor/blob/master/docs/IWorker.md" Интерфейс IWorker")
+* [Worker](https://github.com/To4ilko1/TatooParlor/blob/master/docs/IWorker.md "Интерфейс IWorker")
 * [Client](https://github.com/To4ilko1/TatooParlor/blob/master/docs/IClient.md "Интерфейс IClient")
 * [Service](https://github.com/To4ilko1/TatooParlor/blob/master/docs/IService.md "Интерфейс IService")
 * [Session](https://github.com/To4ilko1/TatooParlor/blob/master/docs/ISession.md "Интерфейс ISession")
