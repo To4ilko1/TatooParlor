@@ -1,5 +1,5 @@
 # Описание класса Worker
-Класс для работы с сотрудниками тату-салона.
+Интерфейс предназначен для работы с методами класса Worker
 
 ## Реализация интерфейса
 * +Add (Worker: [Worker](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Worker.md "объект класса Worker")): Int — функция, добавляющая врача в базу данных. Параметр «[Worker](https://github.com/To4ilko1/TatooParlor/blob/master/docs/Worker.md "объект класса Worker")» — мастер, которого необходимо добавить в БД;
